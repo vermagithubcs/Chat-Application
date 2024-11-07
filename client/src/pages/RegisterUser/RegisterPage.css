@@ -1,0 +1,84 @@
+.Register_Page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Register_Box{
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-inline: auto;
+}
+.Register_Form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Input_Box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Input_Box input{
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;  
+}
+.Input_Box input:focus{
+    border: 1px solid var(--primary);
+}
+.Input_Box input:focus::placeholder{
+    color: var(--primary);
+}
+.Input_Box input::placeholder{
+    color: #ccc;
+}
+.upload_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 15px;
+    border: 1px solid #aeaeae;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}.upload_box:hover{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+
+#closeBTN{
+    font-size: 25px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: none;
+}
+#closeBTN:hover{
+    color: red;
+}
+.Register_Button{
+    background-color: var(--primary);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Register_Button:hover{
+    background-color: #00999e;
+}
